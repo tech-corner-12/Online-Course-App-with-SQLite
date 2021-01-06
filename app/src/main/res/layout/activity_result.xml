@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/amt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the amount"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select for online Payment:"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Credit Card"
+        android:layout_marginTop="10dp"
+        android:onClick="pay"/>
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debit Card"
+        android:onClick="pay"/>
+
+    <RadioButton
+        android:id="@+id/rb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NetBanking"
+        android:onClick="pay"/>
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Proceed To Pay"
+        android:layout_marginTop="10dp"
+        android:onClick="proceed"/>
+</LinearLayout>

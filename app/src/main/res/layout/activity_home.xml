@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C Programming
+Course Duration:65 Days
+Fee: Rs.2000"
+        android:textSize="25dp"
+        android:textColor="#D81B60"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENROLL NOW"
+        android:textSize="20dp"
+        android:onClick="result"/>
+    <TextView
+        android:id="@+id/j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java Programming
+Course Duration:75 Days
+Fee: Rs.2500"
+        android:textSize="25dp"
+        android:textColor="#D81B60"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/jb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENROLL NOW"
+        android:textSize="20dp"
+        android:onClick="result"/>
+    <TextView
+        android:id="@+id/h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HTML5
+CourseDuration:35 Days
+Fee: Rs.1500"
+        android:textSize="25dp"
+        android:textColor="#D81B60"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/hb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENROLL NOW"
+        android:textSize="20dp"
+        android:onClick="result"/>
+    <TextView
+        android:id="@+id/css"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSS
+Course Duration:30 Days
+Fee: Rs.1000"
+        android:textSize="25dp"
+        android:textColor="#D81B60"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/cssb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENROLL NOW"
+        android:textSize="20dp"
+        android:onClick="result"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="next"/>
+</LinearLayout>
